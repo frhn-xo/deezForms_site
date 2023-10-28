@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: black;
 }
 .start{
 display: flex;
@@ -33,10 +32,15 @@ display: flex;
         align-items: center;
 }
 .text{
-    background-color: blue;
+    background-color: white;
     width: 50%;
     height: 100%;
     display: flex;
         justify-content: center;
         align-items: center;
+            flex-direction: column;
+}
+#submit{
+    height: 3rem;
+    width:  5rem;
 }
