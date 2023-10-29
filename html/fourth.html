@@ -40,4 +40,10 @@
     </div>
 
   </body>
+  <script>
+        if (!localStorage.getItem("emailid")) {
+        alert("please login. Redirecting to index.");
+        window.location.href = "index.html";
+      }
+  </script>
 </html>
