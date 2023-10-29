@@ -2,11 +2,14 @@ body {
     margin: 0;
     line-height: normal;
     background-color: #1d1d1d;
-    color:white;
+    color: white;
 }
-.elipse{
+
+.elipse {
     background-color: aliceblue;
-}body {
+}
+
+body {
     margin: 0;
     line-height: normal;
     background-color: #1d1d1d;
@@ -49,7 +52,7 @@ body {
 .elipse {
     display: flex;
     justify-content: center;
-    margin-top: 6rem;
+    margin-top: 8rem;
 }
 
 .end {
@@ -105,8 +108,4 @@ body {
 
 .button1:hover {
     background: #87EDF0;
-}
-.url{
-    height: 1.7rem;
-    width: 20rem;
 }
