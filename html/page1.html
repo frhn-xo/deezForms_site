@@ -15,7 +15,7 @@
   </head>
   <body>
     <div class="group-parent">
-        <img class="group-icon" alt="" src="images/check.svg" />
+        <img class="group-icon" alt="" src="../images/check.svg" />
 
         <b class="continue">
         <div class="row">
@@ -28,7 +28,7 @@
       </div>
     </div>
     <div class="elipse">
-        <img class="group-icon" alt="" src="images/Ellipse.svg" />
+        <img class="group-icon" alt="" src="../images/Ellipse.svg" />
     </div>
     <div class="text">
         <p class="end">Welcome to our extension! To optimize your experience, we request some initial data for customization. This allows us to tailor your autofill assistance to your specific needs.</p>
@@ -36,13 +36,17 @@
 
     </div>
     <div class="holder">
-        <input type="button" class="button1" onclick="youtube.com" value="Continue"></input>
+        <input type="button" class="button1"  value="Continue"></input>
     </div>
     <script>
-        x=document.getElementsByClassName("button1");
+      if (!localStorage.getItem("emailid")) {
+        alert("please login. Redirecting to index.");
+        window.location.href = "index.html";
+      }
+
+        var x=document.getElementsByClassName("button1");
         x[0].addEventListener("click",function(){
-            window.target="_blank"
-            window.location.href="https://youtube.com";
+            window.location.href="third.html";
         });
       </script>
   </body>
